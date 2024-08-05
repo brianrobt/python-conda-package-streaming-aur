@@ -2,7 +2,7 @@
 
 pkgname='python-conda-package-streaming'
 pkgver='0.10.0'
-pkgrel=1
+pkgrel=2
 pkgdesc='An efficient library to read from new and old format .conda and .tar.bz2 conda packages'
 _srcname="conda-package-streaming-${pkgver}"
 arch=('x86_64')
@@ -29,9 +29,6 @@ checkdepends=(
   'python-conda'
   'python-conda-package-handling'
 )
-provides=("${pkgname%}")
-conflicts=("${pkgname%}")
-replaces=("${pkgname%}")
 source=(
   "${_srcname}.tar.gz::https://github.com/conda/conda-package-streaming/archive/refs/tags/v${pkgver}.tar.gz"
 )
