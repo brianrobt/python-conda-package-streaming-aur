@@ -1,7 +1,7 @@
 pkgbase = python-conda-package-streaming
 	pkgdesc = An efficient library to read from new and old format .conda and .tar.bz2 conda packages
 	pkgver = 0.10.0
-	pkgrel = 2
+	pkgrel = 3
 	url = https://github.com/conda/conda-package-streaming
 	arch = x86_64
 	license = BSD-3-Clause
@@ -11,7 +11,6 @@ pkgbase = python-conda-package-streaming
 	checkdepends = python-boto3
 	checkdepends = python-bottle
 	checkdepends = python-conda
-	checkdepends = python-conda-package-handling
 	makedepends = python-build
 	makedepends = python-installer
 	makedepends = python-flit-core
